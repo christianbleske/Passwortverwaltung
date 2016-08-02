@@ -1,0 +1,72 @@
+
+/* Class = "IBUIButton"; normalTitle = "Speichern"; ObjectID = "1hS-hf-L0R"; */
+"1hS-hf-L0R.normalTitle" = "Speichern";
+
+/* Class = "IBUILabel"; text = "Name:"; ObjectID = "2Fc-KG-jfM"; */
+"2Fc-KG-jfM.text" = "Name:";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "2pz-XF-uhl"; */
+"2pz-XF-uhl.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Passwort:"; ObjectID = "5ea-Mx-BDz"; */
+"5ea-Mx-BDz.text" = "Passwort:";
+
+/* Class = "IBUINavigationItem"; title = "Neuanlage"; ObjectID = "A0c-YO-keg"; */
+"A0c-YO-keg.title" = "Neuanlage";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Ack-4A-D6c"; */
+"Ack-4A-D6c.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUIViewController"; title = "Detail"; ObjectID = "Ah7-4n-0Wa"; */
+"Ah7-4n-0Wa.title" = "Detail";
+
+/* Class = "IBUILabel"; text = "uiLabelPasswort"; ObjectID = "DOf-Jt-jq6"; */
+"DOf-Jt-jq6.text" = "uiLabelPasswort";
+
+/* Class = "IBUIBarButtonItem"; title = "Neu"; ObjectID = "H1a-Vv-nmk"; */
+"H1a-Vv-nmk.title" = "Neu";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "MMz-fm-0Qt"; */
+"MMz-fm-0Qt.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "IBUIViewController"; title = "Generator"; ObjectID = "Mic-fU-GfY"; */
+"Mic-fU-GfY.title" = "Generator";
+
+/* Class = "IBUILabel"; text = "Nur Grossbuchstaben"; ObjectID = "NMX-Kl-UpH"; */
+"NMX-Kl-UpH.text" = "Nur Grossbuchstaben";
+
+/* Class = "IBUILabel"; text = "Bemerkung:"; ObjectID = "NyJ-Lq-swp"; */
+"NyJ-Lq-swp.text" = "Bemerkung:";
+
+/* Class = "IBUILabel"; text = "100"; ObjectID = "O6O-Kv-ua4"; */
+"O6O-Kv-ua4.text" = "100";
+
+/* Class = "IBUILabel"; text = "Name:"; ObjectID = "OhO-IH-GfN"; */
+"OhO-IH-GfN.text" = "Name:";
+
+/* Class = "IBUILabel"; text = "uiLabelName"; ObjectID = "Qa5-Cu-mSP"; */
+"Qa5-Cu-mSP.text" = "uiLabelName";
+
+/* Class = "IBUILabel"; text = "Bemerkung:"; ObjectID = "Uwn-pA-ixB"; */
+"Uwn-pA-ixB.text" = "Bemerkung:";
+
+/* Class = "IBUINavigationItem"; title = "Detailansicht"; ObjectID = "cra-N8-TIN"; */
+"cra-N8-TIN.title" = "Detailansicht";
+
+/* Class = "IBUIButton"; normalTitle = "Passwort erzeugen"; ObjectID = "nPQ-lY-HWZ"; */
+"nPQ-lY-HWZ.normalTitle" = "Passwort erzeugen";
+
+/* Class = "IBUILabel"; text = "Länge des Passwortes:"; ObjectID = "oH6-gx-Gs2"; */
+"oH6-gx-Gs2.text" = "Länge des Passwortes:";
+
+/* Class = "IBUITableViewController"; title = "Master"; ObjectID = "pGg-6v-bdr"; */
+"pGg-6v-bdr.title" = "Master";
+
+/* Class = "IBUINavigationController"; title = "Master"; ObjectID = "rS3-R9-Ivy"; */
+"rS3-R9-Ivy.title" = "Master";
+
+/* Class = "IBUINavigationItem"; title = "Passwortliste"; ObjectID = "tQt-TN-PWz"; */
+"tQt-TN-PWz.title" = "Passwortliste";
+
+/* Class = "IBUILabel"; text = "Passwort:"; ObjectID = "wU9-sq-mRl"; */
+"wU9-sq-mRl.text" = "Passwort:";

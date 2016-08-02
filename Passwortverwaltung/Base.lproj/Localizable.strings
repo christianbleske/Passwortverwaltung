@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Passwortverwaltung
+
+  Created by Christian Bleske on 07.03.15.
+  Copyright (c) 2015 Christian Bleske. All rights reserved.
+*/
+"MVC_leftBarButtonItem" = "Edit";
+"Msg_Reason_TouchID" = "Check with TouchID";
+"Msg_Title" = "Hint";
+"Msg_TouchID_success" = "Check with TouchID successful!";
+"Msg_TouchID_failed" = "Check with TouchID failed!";
+"Msg_TouchID_NA" = "TouchID not available!";
+"Msg_PwdSaved" = "Password saved!";
