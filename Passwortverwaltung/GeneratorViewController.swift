@@ -15,7 +15,7 @@ class GeneratorViewController : UIViewController, UITextFieldDelegate  {
     var currentValue:Int=10
     
     lazy var managedObjectContext : NSManagedObjectContext? = {
-        let appDelegate = UIApplication.shared().delegate as! AppDelegate
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
         return appDelegate.managedObjectContext
     }()
     

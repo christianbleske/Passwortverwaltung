@@ -18,7 +18,7 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.navigationItem.leftBarButtonItem = self.editButtonItem()
+        self.navigationItem.leftBarButtonItem = self.editButtonItem
         self.navigationItem.leftBarButtonItem?.title = NSLocalizedString("MVC_leftBarButtonItem", comment: "-")
         authenticate();
     }
@@ -28,8 +28,8 @@ class MasterViewController: UITableViewController {
         var error: NSError?
         
         if laContext.canEvaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, error: &error) {
-            let reason =  NSLocalizedString("Msg_Reason_TouchID", comment: "-") //"Überprüfung mit TouchID"
-            laContext.evaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason, reply: {(succes: Bool, error: NSError?) -> Void in
+            let reason =  NSLocalizedString("Msg_Reason_TouchID", comment: "-") //"Überprüfung mit TouchID"                             //B3->4 von NSError -> Error
+            laContext.evaluatePolicy(LAPolicy.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason, reply: {(succes: Bool, error: Error?) -> Void in
                     if succes {
                         self.showAlertViewWithTitle(NSLocalizedString("Msg_Title", comment: "-"),message: NSLocalizedString("Msg_TouchID_success", comment: "-"))//"Prüfung mit TouchID erfolgreich!")
                     }
@@ -105,7 +105,8 @@ class MasterViewController: UITableViewController {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let pwd = passworte[(indexPath as NSIndexPath).row] as! Passwort
-                (segue.destinationViewController as! DetailViewController).detailItem = pwd
+                //B3->B4 Renamed destinationViewController to destination
+                (segue.destination as! DetailViewController).detailItem = pwd
             }
         }
     }
