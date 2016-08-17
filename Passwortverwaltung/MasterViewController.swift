@@ -101,7 +101,9 @@ class MasterViewController: UITableViewController {
 
     // MARK: - Segues
 
-    override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
+    //Bis Beta5
+    //override func prepare(for segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "showDetail" {
             if let indexPath = self.tableView.indexPathForSelectedRow {
                 let pwd = passworte[(indexPath as NSIndexPath).row] as! Passwort
