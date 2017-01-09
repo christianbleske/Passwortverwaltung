@@ -12,9 +12,13 @@ import LocalAuthentication
 
 class MasterViewController: UITableViewController {
 
-    var managedObjectContext: NSManagedObjectContext? = nil
     var passworte = NSMutableArray()
 
+    lazy var managedObjectContext : NSManagedObjectContext? = {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        return appDelegate.managedObjectContext
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -76,21 +80,23 @@ class MasterViewController: UITableViewController {
     
     func loadData() {
         passworte.removeAllObjects()
-        let fetchRequest = NSFetchRequest<Passwort>(entityName: "Passwort")
-        
-        var fetchResults:[AnyObject]?
+        let fetchRequest = NSFetchRequest<NSManagedObject>(entityName: "Passwort")
+
+        var fetchResults:[Passwort]=[]
         do {
-            fetchResults = try managedObjectContext!.fetch(fetchRequest) //as! [Passwort]
-            for passwort: Passwort in fetchResults as! [Passwort]{
+            try fetchResults = managedObjectContext!.fetch(fetchRequest) as! [Passwort]
+            for passwort: Passwort in fetchResults {
                 print(passwort.name + " " + passwort.passwort)
                 passworte.add(passwort)
             }
             self.tableView.reloadData();
         } catch {
-            if (fetchResults!.count <= 0) {
+            if (fetchResults.count <= 0) {
                 showAlertViewWithTitle("Hinweis", message: "Datensatz nicht gefunden!")
             }
+            
         }
+        
     }
 
 
